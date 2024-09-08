@@ -26,7 +26,7 @@ export default function SpotifySongView() {
   const [isRepeat, setIsRepeat] = useState(false)
   const lyricContainerRef = useRef(null)
   const progressBarRef = useRef(null)
-  const audioRef = useRef(new Audio('/file.mp3'))
+  const audioRef = useRef(new Audio('/AUD-20240827-WA0440.mp3'))
 
   const totalDuration = 260 // 4:20 in seconds
 
