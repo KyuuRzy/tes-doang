@@ -27,7 +27,7 @@ export default function App() {
   const [isRepeat, setIsRepeat] = useState(false);
   const lyricContainerRef = useRef<HTMLDivElement | null>(null);
   const progressBarRef = useRef<HTMLDivElement | null>(null);
-  const audioRef = useRef(new Audio('/AUD-20240827-WA0440.mp3'));
+  const audioRef = useRef(new Audio('../AUD-20240827-WA0440.mp3'));
 
   const totalDuration = 260; // 4:20 in seconds
 
